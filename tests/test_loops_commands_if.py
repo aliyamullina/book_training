@@ -1,5 +1,5 @@
 import pytest
-from test_main_008 import del_negative_numbers, total_negative_numbers, output_description
+from story.loops_commands_if import del_negative_numbers, total_negative_numbers, output_description
 
 
 @pytest.mark.parametrize('x, result', [

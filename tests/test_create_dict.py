@@ -1,6 +1,6 @@
 import pytest
 from io import StringIO
-from main_007 import create_dict, find_from_dict
+from story.create_dict import create_dict, find_from_dict
 
 
 @pytest.mark.parametrize('name_age, result', [

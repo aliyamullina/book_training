@@ -1,6 +1,6 @@
 import pytest
 
-from main_003 import last_three_elem_modification_list
+from story.modification_list import last_three_elem_modification_list
 
 
 @pytest.mark.parametrize('user_list, result_list', [

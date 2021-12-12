@@ -1,5 +1,5 @@
 import pytest
-from main_004 import segments_indices_list
+from story.segments_indices_list import segments_indices_list
 
 
 @pytest.mark.parametrize('user_list, result_list', [

@@ -1,5 +1,5 @@
 import pytest
-from main_002 import del_find_el
+from story.operations_list import del_find_el
 
 
 @pytest.mark.parametrize('input_list, input_el, result_list', [

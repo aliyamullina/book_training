@@ -1,5 +1,5 @@
 import pytest
-from main_005 import copy_list
+from story.copy_list import copy_list
 
 
 @pytest.mark.parametrize('user_list, result_list', [

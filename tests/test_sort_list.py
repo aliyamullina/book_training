@@ -1,5 +1,5 @@
 import pytest
-from main import sort_by_second_el
+from story.sort_list import sort_by_second_el
 
 
 @pytest.mark.parametrize('input_list, result_list', [

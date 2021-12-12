@@ -1,5 +1,5 @@
 import pytest
-from main_006 import operation_string, operation_string_mississippi
+from story.operations_string import operation_string, operation_string_mississippi
 
 
 @pytest.mark.parametrize('list_x, result_list_x', [
